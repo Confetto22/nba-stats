@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h2{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container{
+    
+/* background: rgba(18, 224, 176, 0.4);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(18, 224, 176, 0.2); */
+    /* width: 50%; */
+}
+form{
+background: linear-gradient(90deg, rgba(0, 23, 36, 1) 0%, rgba(175, 0, 255, 1) 0%, rgba(0, 245, 255, 1) 100%);
+padding: 0 1rem;
+padding-top: 2rem;
+}
+.input_details {
+    /* background-color: #fff; */
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.input_details input{
+    padding: .8rem 2rem;
+    border: none;
+}
+#playername{
+    background-color: #eee;
+    border-radius: .6rem 0 0 .6rem;
+}
+#submit_bt{
+    background-color: rgb(4, 66, 66);
+    color: #fff;
+   border-radius: 0 .6rem .6rem 0;
+   transition: .4s ease;
+}
+#submit_bt:hover{
+    background-color: #070004;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7vw;
+    background-color: #fff;
+    color: #1c1c1c;
+}
+.results_content{
+background-image: url('images/marius-christensen-_Ghzg0xvHW0-unsplash.jpg');
+    background-position: center;
+   
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+}
+.results_container{
+    background-color: #d6d6d64d ;
+        /* height: 31rem; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        padding: 0 1.3rem;
+}
+
+.text_data{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    padding: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+    gap: 1rem;
+
+}
+.text_data p{
+    margin: 0;
+    background-color: #3ec5bed7;
+    color: #000;
+    padding: .7rem  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.error_msg{
+    color: red;
+    background-color: #fff;
+}
+.results_content{
+    color: red;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+
+@media only screen and (min-width:700px){
+    h3{
+        font-size: 5vw;
+    }
+}
